@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mata Mosquito</title>
+		<link rel="stylesheet" href="../css/estilo.css" type="text/css">
+	</head>
+	<body onresize="ajustaTamanhoPalcoJogo()">
+		<div class="painel">
+			<div class="vidas">
+				<img id="v1" src="../img/coracao_cheio.png">
+				<img id="v2" src="../img/coracao_cheio.png">
+				<img id="v3" src="../img/coracao_cheio.png">
+			</div>
+			<div class="cronometro">
+				<p>Tempo Restante: <span id="tempo">10</span></p>
+			</div>
+			<p class="pontuacao">Pontuação: </p>
+		</div>
+		<script src="../js/jogo.js">
+            tamanhoAleatorio()
+        </script>
+	</body>
+</html>
