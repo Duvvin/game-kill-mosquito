@@ -16,6 +16,8 @@ Follow the images to see how was it.
   }
 </style>
 
-<img src="img/print1.png">
-<img src="img/print2.png">
-<img src="img/print3.png">
+<div>
+  <img src="./img/print1.png">
+<img src="./img/print2.png">
+<img src="./img/print3.png">
+</div>
